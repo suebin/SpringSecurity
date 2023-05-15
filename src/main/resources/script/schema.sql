@@ -1,6 +1,3 @@
-DROP TABLE IF EXISTS Authoroties;
-DROP TABLE IF EXISTS Members;
-
 CREATE TABLE IF NOT EXISTS `Members`
 (
     `member_id` VARCHAR(50)  NOT NULL,
