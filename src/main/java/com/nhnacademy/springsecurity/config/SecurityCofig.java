@@ -30,7 +30,7 @@ public class SecurityCofig {
                     .requestMatchers("/redirect-index").authenticated()
                     .anyRequest().permitAll()
                     .and()
-                    .requiresChannel()
+                .requiresChannel()
                     .requestMatchers("/admin/**").requiresSecure()
                     .requestMatchers("/private-project/**").requiresSecure()
                     .requestMatchers("/project/**").requiresSecure()

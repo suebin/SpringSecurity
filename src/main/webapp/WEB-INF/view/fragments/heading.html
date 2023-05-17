@@ -6,7 +6,8 @@
     <a href="/auth/logout">Logout</a>
 </div>
 <div sec:authorize="!isAuthenticated()">
-    <a href="/redirect-index">Login</a>
+    <a href="/redirect-index">Github Login</a>
+    <a href="/auth/login">Login</a>
 </div>
 <br />
 <a href="/">Go to Main</a>
